@@ -1,0 +1,18 @@
+.banner-section{
+    display: flex;
+    height: 800px;
+    background-image: url("../../assets/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-title{
+    display: flex;
+    color: #FFF;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.5;
+}
