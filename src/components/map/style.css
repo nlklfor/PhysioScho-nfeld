@@ -1,0 +1,24 @@
+.map-frame {
+    border: 0;
+}
+
+.location-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.location-subtitle {
+    color: #003056;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.location-title{
+    color: #003056;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

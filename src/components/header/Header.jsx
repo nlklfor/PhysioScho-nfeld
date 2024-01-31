@@ -37,7 +37,6 @@ function Header() {
                             </button>
                         </li>
                     </ul>
-
                 </section>
             </header>
         </>
