@@ -5,14 +5,14 @@ function Card(props) {
                 <section className={'section-card'}>
                     <img src={props.img} alt={'card'}/>
                 </section>
-                <section className={'section-desc'}>
-                    <h2 className={'section-title'}>
+                <section className={'card-desc'}>
+                    <h2 className={'card-title'}>
                         {props.title}
                     </h2>
-                    <h3 className={'section-subtitle'}>
+                    <h3 className={'card-subtitle'}>
                         {props.subtitle}
                     </h3>
-                    <p className={'section-description'}>
+                    <p className={'card-description'}>
                         {props.description}
                     </p>
                 </section>

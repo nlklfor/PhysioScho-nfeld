@@ -1,0 +1,21 @@
+.reviews{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.reviews-title{
+    color: #003056;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-reviews{
+    display: flex;
+    justify-content: center;
+    color: red;
+}

@@ -5,6 +5,10 @@ import AboutUs from "./components/aboutUs/aboutUs";
 import Map from "./components/map/map";
 import Services from "./components/services/services";
 import Practice from "./components/practice/practice";
+import ContactUs from "./components/contactUs/contactUs";
+import Conditions from "./components/conditions/conditions";
+import Reviews from "./components/reviews/reviews";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -15,6 +19,10 @@ function App() {
         <Map />
         <Services />
         <Practice />
+        <ContactUs />
+        <Conditions />
+        <Reviews />
+        <Footer />
     </div>
   );
 }

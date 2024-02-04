@@ -2,6 +2,14 @@ import './style.css'
 import check from '../../assets/check-mark.svg'
 
 function AboutUs() {
+
+    const advList = [
+        {img: check, title: 'Fast and flexible appointment'},
+        {img: check, title: 'Private and general insurance'},
+        {img: check, title: 'Professional and competent stuff'},
+        {img: check, title: 'High privacy due to closed rooms'},
+        {img: check, title: 'Our therapists speak: German, English, Croatian, Russian'},
+    ]
     return (
         <>
             <section className={'aboutUs-section'}>
@@ -20,42 +28,21 @@ function AboutUs() {
                         Make an appointment
                     </button>
                 </article>
-                <article className={'pros-article'}>
-                    <h2 className={'pros-title'}>
+                <article className={'advantages-article'}>
+                    <h2 className={'advantages-title'}>
                         Your advantages with us
                     </h2>
-                    <ul className={'pros-list'}>
-                        <li className={'pros-list_item'}>
-                            <img src={check} alt={'check'}/>
-                            <p className={'pros-list_spec'}>
-                                Fast and flexible appointment
-                            </p>
-                        </li>
-                        <li className={'pros-list_item'}>
-                            <img src={check} alt={'check'}/>
-                            <p className={'pros-list_spec'}>
-                                Private and general insurance
-                            </p>
-                        </li>
-                        <li className={'pros-list_item'}>
-                            <img src={check} alt={'check'}/>
-                            <p className={'pros-list_spec'}>
-                                Professional and competent stuff
-                            </p>
-                        </li>
-                        <li className={'pros-list_item'}>
-                            <img src={check} alt={'check'}/>
-                            <p className={'pros-list_spec'}>
-                                High privacy due to closed rooms
-                            </p>
-                        </li>
-                        <li className={'pros-list_item'}>
-                            <img src={check} alt={'check'}/>
-                            <p className={'pros-list_spec'}>
-                                Our therapists speak:<br/>
-                                German, English, Croatian, Russian
-                            </p>
-                        </li>
+                    <ul className={'advantages-list'}>
+                        {advList.map(item => {
+                            return (
+                                <li className={'advantages-list_item'}>
+                                    <img src={item.img} alt={'check'}/>
+                                    <p className={'advantages-list_spec'}>
+                                        {item.title}
+                                    </p>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </article>
             </section>

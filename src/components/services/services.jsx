@@ -38,8 +38,11 @@ function Services() {
                     {cardInfo.map(card => {
                         return (
                             <SwiperSlide>
-                                <Card title={card.title} subtitle={card.subtitle} description={card.description}
-                                      img={card.img}/>
+                                <div className={'card-wrapper'}>
+                                    <Card title={card.title} subtitle={card.subtitle} description={card.description}
+                                          img={card.img}/>
+                                </div>
+
                             </SwiperSlide>
                         )
                     })}

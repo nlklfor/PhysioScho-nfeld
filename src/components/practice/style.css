@@ -6,3 +6,20 @@
     margin-bottom: 56px;
     margin-top: 100px;
 }
+
+.section-practice{
+    display: flex;
+}
+
+.swiper-practice{
+    margin-bottom: 40px;
+}
+
+.slider-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ff0000;
+}
