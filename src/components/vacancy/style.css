@@ -1,0 +1,137 @@
+.vacancy {
+
+}
+
+.vacancy-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #003056;
+    text-align: center;
+}
+
+.back {
+    display: flex;
+    margin: 30px 40px;
+}
+
+.button-back {
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    color: #003056;
+    align-items: center;
+    justify-content: center;
+    transition: .3s all;
+
+
+    img {
+        transition: .3s all;
+        transform: rotate(-90deg);
+        margin-right: 15px;
+    }
+}
+
+.section-apply {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.47);
+    max-width: 800px;
+    align-items: center;
+    margin: 60px auto;
+}
+
+.apply-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+#input-apply {
+    font-size: 26px;
+    color: white;
+    font-weight: 400;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #003056;
+    background-color: transparent;
+    margin-bottom: 50px;
+}
+
+#input-apply::placeholder {
+    color: #003056;
+}
+
+#input-apply:focus {
+    outline: none;
+}
+
+textarea {
+    font-size: 26px;
+    color: #003056;
+    font-weight: 400;
+    border: 1px solid #003056;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    margin: 20px 0;
+    height: 250px;
+
+}
+
+textarea::placeholder {
+    color: #003056;
+}
+
+.apply-send {
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #003056;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: .3s all;
+}
+
+.input-file input[type='file'] {
+    display: none;
+}
+
+.input-file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #003056;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+    padding: 6px 12px;
+}
+
+.upload {
+    margin-left: 5px;
+}
+
+.apply-send:hover, .apply-send.active, .apply-send:focus {
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.25));
+}
+
+textarea:focus {
+    outline: none;
+}
+
+
+.section-title {
+    font-size: 32px;
+    font-weight: 400;
+    color: #003056;
+    margin-bottom: 50px;
+}
