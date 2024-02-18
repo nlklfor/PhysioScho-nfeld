@@ -8,6 +8,7 @@ import hour from '../../assets/working-hours.svg';
 import location from '../../assets/location.svg';
 import intervals from '../../assets/intervals.svg';
 import arrow from '../../assets/pros-arrow.svg';
+import {Link} from "react-router-dom";
 
 
 function Conditions() {
@@ -41,7 +42,7 @@ function Conditions() {
                         )
                     })}
                 </ul>
-                <button className={'section-button'}>Apply for a job<img alt={'button-arrow'} src={arrow} className={'button-arrow'}/></button>
+                <Link to={'job'} className={'section-button'}>Apply for a job<img alt={'button-arrow'} src={arrow} className={'button-arrow'}/></Link>
             </section>
         </main>
     )

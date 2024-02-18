@@ -1,15 +1,16 @@
 import './style.css'
 import back from '../../assets/pros-arrow.svg'
 import upload from '../../assets/Upload.svg'
+import {Link} from "react-router-dom";
 
 function Vacancy() {
     return (
         <main className={'vacancy'}>
             <div className={'back'}>
-                <a href={'#!'} className={'button-back'}>
+                <Link to={'/'} className={'button-back'}>
                     <img className={'arrow-back'} alt={'back'} src={back}/>
                     Back
-                </a>
+                </Link>
             </div>
             <h1 className={'vacancy-title'}>Apply for a job <br/>
                 Start your career with us

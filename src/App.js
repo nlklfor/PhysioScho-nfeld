@@ -15,15 +15,15 @@ function App() {
   return (
     <div className="App">
         <Header />
-        {/*<Banner />*/}
-        {/*<AboutUs />*/}
-        {/*<Map />*/}
-        {/*<Services />*/}
-        {/*<Practice />*/}
-        {/*<ContactUs />*/}
-        {/*<Conditions />*/}
-        {/*<Reviews />*/}
-        <Vacancy />
+        <Banner />
+        <AboutUs />
+        <Map />
+        <Services />
+        <Practice />
+        <ContactUs />
+        <Conditions />
+        <Reviews />
+        {/*<Vacancy />*/}
         <Footer />
     </div>
   );
