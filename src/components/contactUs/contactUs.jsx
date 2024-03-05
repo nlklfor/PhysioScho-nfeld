@@ -6,7 +6,7 @@ import whatsapp from '../../assets/whatsapp.svg'
 
 function ContactUs() {
     return (
-        <main className={'contactUs'}>
+        <main className={'contactUs'} id={'sectionContacts'}>
             <h1 className={'contactUs-title'}>
                 Contact Us
             </h1>
@@ -19,7 +19,7 @@ function ContactUs() {
                         <input id={'input-form'} type={"text"} placeholder={`Your name`} required/>
                         <input id={'input-form'} type={"email"} placeholder={`Your email`} required/>
                         <input id={'input-form'} type={"tel"} placeholder={`Your phone number`} required/>
-                        <textarea placeholder={'Message'}/>
+                        <textarea id={'textarea-form'} placeholder={'Message'}/>
                         <div className={'form-policy'}>
                             <input id={'input-checkbox'} type={"checkbox"} required/>
                             <p className={'policy-title'}>I agree all statements in <a className={'policy-term'}

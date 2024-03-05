@@ -5,9 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
     createBrowserRouter,
-    RouterProvider,
-    Route,
-    Link,
+    RouterProvider
 } from "react-router-dom";
 import Vacancy from "./components/vacancy/vacancy";
 

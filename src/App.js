@@ -9,7 +9,6 @@ import ContactUs from "./components/contactUs/contactUs";
 import Conditions from "./components/conditions/conditions";
 import Reviews from "./components/reviews/reviews";
 import Footer from "./components/footer/footer";
-import Vacancy from "./components/vacancy/vacancy";
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
         <ContactUs />
         <Conditions />
         <Reviews />
-        {/*<Vacancy />*/}
         <Footer />
     </div>
   );

@@ -1,5 +1,6 @@
 import './style.css'
 import check from '../../assets/check-mark.svg'
+import {scrollToTarget} from "../header/Header";
 
 function AboutUs() {
 
@@ -12,7 +13,7 @@ function AboutUs() {
     ]
     return (
         <>
-            <section className={'aboutUs-section'}>
+            <section className={'aboutUs-section'} id={'sectionAbout'}>
                 <article className={'description-article'}>
                     <h2 className={'description-title'}>
                         About Us
@@ -24,7 +25,7 @@ function AboutUs() {
                         illness, true to the motto: We will get you fit again. You will find our practice in the heart
                         of Munich, directly on the town hall square.
                     </p>
-                    <button className={'description-button'}>
+                    <button className={'description-button'} onClick={() => scrollToTarget('sectionContacts')}>
                         Make an appointment
                     </button>
                 </article>

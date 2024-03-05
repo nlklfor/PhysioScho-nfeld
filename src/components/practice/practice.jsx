@@ -1,10 +1,9 @@
 
 import './style.css'
 import {Swiper, SwiperSlide} from 'swiper/react';
-import {EffectCards, EffectCoverflow, Pagination} from 'swiper/modules';
+import {EffectCards, Pagination} from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css';
-import { EffectFade } from 'swiper/modules';
 import 'swiper/css/effect-fade';
 import practice from '../../assets/practice.png';
 import practice2 from '../../assets/practice2.jpg';
@@ -49,7 +48,7 @@ function Practice() {
 
     return (
         <>
-            <h1 className={'practice-title'}>Our Practice in Munich</h1>
+            <h1 className={'practice-title'} id={'sectionPractice'}>Our Practice in Munich</h1>
             <Swiper
                 modules={[EffectCards, Pagination]}
                 pagination={{ clickable: true }}

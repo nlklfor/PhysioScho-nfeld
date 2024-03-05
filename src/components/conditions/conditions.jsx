@@ -14,19 +14,19 @@ import {Link} from "react-router-dom";
 function Conditions() {
 
     const prosList = [
-        {img: salary, description: 'Above average salary'},
+        {img: location, description: 'Attractive location (5 minutes walk from U1 Wettersteinplatz, good parking)'},
         {img: refund, description: 'Refund for further education, driving licence and moving'},
         {img: bonus, description: 'Bonus for employee recruitment'},
         {img: vacation, description: '28 days/year vocation'},
         {img: car, description: 'Work car for home visits'},
         {img: hour, description: 'Flexible working hours that are tailored to your life'},
-        {img: location, description: 'Attractive location (5 minutes walk from U1 Wettersteinplatz, good parking)'},
+        {img: salary, description: 'Above average salary'},
         {img: intervals, description: '25-minute intervals'},
 
     ]
 
     return (
-        <main className={'conditions'}>
+        <main className={'conditions'} id={'sectionCareer'}>
             <h1 className={'conditions-title'}>
                 We are looking for a candidates
             </h1>
@@ -42,7 +42,8 @@ function Conditions() {
                         )
                     })}
                 </ul>
-                <Link to={'job'} className={'section-button'}>Apply for a job<img alt={'button-arrow'} src={arrow} className={'button-arrow'}/></Link>
+                <Link to={'job'} className={'section-button'}>Apply for a job<img alt={'button-arrow'} src={arrow}
+                                                                                  className={'button-arrow'}/></Link>
             </section>
         </main>
     )

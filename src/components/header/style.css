@@ -1,14 +1,24 @@
-.header{
-
+.header {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
-.header-nav{
+.header-logo {
+    cursor: pointer
+}
+
+.header-nav {
     display: flex;
     flex-direction: row;
+    position: sticky;
     gap: 30px;
 }
 
-.header-section{
+.header-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -16,7 +26,7 @@
     align-items: center;
 }
 
-.header-item{
+.header-item {
     display: flex;
     cursor: pointer;
     color: #003056;
@@ -25,18 +35,18 @@
     align-items: center;
 }
 
-.header-item:active , .header-item:hover, .header-item:focus {
+.header-item:active, .header-item:hover, .header-item:focus {
     transform: translateY(-5px);
     border-bottom: 1px solid #003056;
 }
 
-.header-item:last-child:active , .header-item:last-child:hover, .header-item:last-child:focus {
+.header-item:last-child:active, .header-item:last-child:hover, .header-item:last-child:focus {
     transform: translateY(0px);
     border-bottom: none;
 }
 
 
-.header-button{
+.header-button {
     display: flex;
     padding: 8px 30px;
     border-radius: 15px;
@@ -45,15 +55,15 @@
     transition: .2s all;
 }
 
-.header-button:focus, .header-button:active , .header-button:hover {
+.header-button:focus, .header-button:active, .header-button:hover {
     filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.25));
 }
 
-.phone-link{
+.phone-link {
     color: white;
     font-size: 16px;
 }
 
-.phone-img{
+.phone-img {
     margin-right: 5px;
 }

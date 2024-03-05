@@ -21,7 +21,7 @@
     outline: none;
 }
 
-textarea {
+#textarea-form {
     font-size: 26px;
     color: white;
     font-weight: 400;
@@ -33,11 +33,11 @@ textarea {
     height: 250px;
 }
 
-textarea::placeholder {
+#textarea-form::placeholder {
     color: white;
 }
 
-textarea:focus {
+#textarea-form:focus {
     outline: none;
 }
 

@@ -1,7 +1,7 @@
 import './style.css'
 function Map() {
     return (
-        <section className={'location-section'}>
+        <section className={'location-section'} id={'sectionMap'}>
             <h1 className={'location-title'}>
                 How you can find us?
             </h1>
